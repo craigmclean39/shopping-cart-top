@@ -1,5 +1,6 @@
 [
   {
+    "directory": "beta-ar",
     "category": "Jacket",
     "name": "Beta AR Jacket",
     "description": {
@@ -7,17 +8,18 @@
       "long": "Packable, breathable, durable waterproof protection across the spectrum of alpine environments and activities, the Beta AR Jacket is created to deliver performance versatility. The GORE-TEX PRO with Most Rugged Technology - a next-gen material we developed in collaboration with Gore - delivers maximum durability. The helmet compatible DropHood™ has an internal collar for added protection and an embedded RECCO® reflector improves searchability in emergency situations."
     },
     "colors": ["Komorebi", "Wildchild", "Black"],
-    "heroImages": {
-      "Komorebi": "Beta-AR-Jacket-(NAM)-Komorebi.jpg",
-      "Wildchild": "Beta-AR-Jacket-(NAM)-Wildchild.jpg",
-      "Black": "Beta-AR-Jacket-(NAM)-Black.jpg"
-    },
+    "heroImages": [
+      "Beta-AR-Jacket-(NAM)-Komorebi.jpg",
+      "Beta-AR-Jacket-(NAM)-Wildchild.jpg",
+      "Beta-AR-Jacket-(NAM)-Black.jpg"
+    ],
     "detailImages": [],
     "price": 750,
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
     "activities": ["All Round"]
   },
   {
+    "directory": "alpha-ar",
     "category": "Jacket",
     "name": "Alpha AR Jacket",
     "description": {
@@ -25,11 +27,7 @@
       "long": "Extreme weather, shifting conditions, varied terrain, motion and rest – these are alpine realities. The Alpha AR is a highly versatile hardshell designed to handle them. With GORE-TEX PRO Most Rugged reinforcements in high wear areas to increase durability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector aids search and rescue, crossover chest pockets are easily accessible, and pit zips add ventilation."
     },
     "colors": ["Glitch", "Wildchild", "Tatsu"],
-    "heroImages": {
-      "Glitch": "",
-      "Wildchild": "",
-      "Tatsu": ""
-    },
+    "heroImages": ["Alpha-AR-Jacket-Glitch.jpg", "", ""],
     "detailImages": [],
     "price": 750,
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
@@ -41,6 +39,7 @@
     ]
   },
   {
+    "directory": "alpha-ar-55",
     "category": "Backpack",
     "name": "Alpha AR 55 Backpack",
     "description": {
@@ -48,10 +47,7 @@
       "long": "Arc'teryx developed its own fabric to achieve the hardwearing durability necessary for alpine and rock climbing. Prioritizing abrasion and tear resistance, a liquid crystal polymer ripstop grid is incorporated in a high tenacity nylon fabric. Extremely versatile, customizable options and a large 55L capacity suits the needs of multi-day alpine adventures. A removable framesheet and an adjustable, removable top lid give the option to shed weight. Custom webbing daisy chains securely lash gear and ice pick capture accommodates a range of angles."
     },
     "colors": ["Dynasty", "Pegasus"],
-    "heroImages": {
-      "Dynasty": "",
-      "Pegasus": ""
-    },
+    "heroImages": ["Alpha-AR-55-Backpack-Dynasty.jpg", ""],
     "detailImages": [],
     "price": 240,
     "sizes": ["SRT", "REG"],

@@ -1,24 +1,9 @@
 import React, { useEffect, useState } from 'react';
-
-interface HeroImage {
-  color: string;
-  image: string;
-}
-
-interface Product {
-  category: string;
-  name: string;
-  description: string[];
-  colors: string[];
-  heroImages: HeroImage[];
-  detailImages: string[];
-  price: number;
-  sizes: string[];
-  activities: string[];
-}
+import { Product } from './types';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const [products, setProducts] = useState<Product[] | null>(null);
 
   useEffect(() => {
     async function getData() {
@@ -35,12 +20,28 @@ function App() {
       for (let i = 0; i < data.length; i++) {
         products.push(data[i]);
       }
+      setProducts(products);
     }
 
     getData();
   }, []);
 
-  return isLoading ? <div>Loading</div> : <div>Loaded</div>;
+  return isLoading ? (
+    <div>Loading</div>
+  ) : (
+    <div>
+      {products?.map((product) => {
+        const imageName = require(`../src/images/${product?.directory}/${product?.heroImages[0]}`);
+        console.log(imageName);
+        return (
+          <div>
+            <div>{product?.name}</div>
+            <img src={imageName.default} alt={product.name}></img>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 export default App;
