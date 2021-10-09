@@ -10,3 +10,8 @@ export interface Product {
   sizes: string[];
   activities: string[];
 }
+
+export interface Category {
+  category: string;
+  items: Product[];
+}
