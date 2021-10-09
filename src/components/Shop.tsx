@@ -37,7 +37,15 @@ const Shop = () => {
           const imageName = require(`../images/${product?.directory}/${product?.heroImages[0]}`);
           return (
             <div>
-              <div>{product?.name}</div>
+              <div>
+                <Link
+                  to={{
+                    pathname: `shop/${product?.directory}`,
+                    state: { product: product },
+                  }}>
+                  {product?.name}
+                </Link>
+              </div>
               <img src={imageName.default} alt={product.name}></img>
             </div>
           );
