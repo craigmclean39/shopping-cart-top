@@ -9,7 +9,6 @@ interface LocationState {
 }
 
 const ProductDetails: React.FC<RouteComponentProps> = (props) => {
-  const { match } = props;
   const location = useLocation() as LocationState;
   const product = location.state.product;
 

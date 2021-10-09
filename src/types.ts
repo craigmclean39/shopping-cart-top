@@ -2,7 +2,11 @@ export interface Product {
   directory: string;
   category: string;
   name: string;
-  description: string[];
+  description: {
+    preview: string;
+    short: string;
+    long: string;
+  };
   colors: string[];
   heroImages: string[];
   detailImages: string[];
@@ -14,4 +18,12 @@ export interface Product {
 export interface Category {
   category: string;
   items: Product[];
+}
+
+export interface ShopCategoryProps {
+  category: Category;
+}
+
+export interface ProductPreviewCardProps {
+  product: Product;
 }

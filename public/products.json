@@ -7,6 +7,7 @@
         "category": "Jacket",
         "name": "Beta AR Jacket",
         "description": {
+          "preview": "Versatile GORE-TEX PRO shell for all round (AR) use.",
           "short": "Light, packable, highly versatile GORE-TEX PRO shell with hybrid construction. Beta Series: All round mountain apparel.",
           "long": "Packable, breathable, durable waterproof protection across the spectrum of alpine environments and activities, the Beta AR Jacket is created to deliver performance versatility. The GORE-TEX PRO with Most Rugged Technology - a next-gen material we developed in collaboration with Gore - delivers maximum durability. The helmet compatible DropHood™ has an internal collar for added protection and an embedded RECCO® reflector improves searchability in emergency situations."
         },
@@ -26,6 +27,7 @@
         "category": "Jacket",
         "name": "Alpha AR Jacket",
         "description": {
+          "preview": "All round (AR) GORE-TEX PRO shell for alpine conditions.",
           "short": "Versatile GORE-TEX PRO jacket performs across a range of alpine conditions. Alpha Series: Climbing and alpine focused systems.",
           "long": "Extreme weather, shifting conditions, varied terrain, motion and rest – these are alpine realities. The Alpha AR is a highly versatile hardshell designed to handle them. With GORE-TEX PRO Most Rugged reinforcements in high wear areas to increase durability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector aids search and rescue, crossover chest pockets are easily accessible, and pit zips add ventilation."
         },
@@ -51,6 +53,7 @@
         "category": "Backpack",
         "name": "Alpha AR 55 Backpack",
         "description": {
+          "preview": "All round (AR), durable, versatile alpine pack.",
           "short": "Durable and versatile all-round pack for ice climbing and multi-day alpine climbs. Alpha Series: Climbing and alpine focused systems.",
           "long": "Arc'teryx developed its own fabric to achieve the hardwearing durability necessary for alpine and rock climbing. Prioritizing abrasion and tear resistance, a liquid crystal polymer ripstop grid is incorporated in a high tenacity nylon fabric. Extremely versatile, customizable options and a large 55L capacity suits the needs of multi-day alpine adventures. A removable framesheet and an adjustable, removable top lid give the option to shed weight. Custom webbing daisy chains securely lash gear and ice pick capture accommodates a range of angles."
         },

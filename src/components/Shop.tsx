@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
-import { Category } from '../types';
+import { useEffect, useState } from 'react';
+import { Category, ShopCategoryProps } from '../types';
+import ShopCategory from './ShopCategory';
 
 const Shop = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,38 +28,18 @@ const Shop = () => {
     getData();
   }, []);
 
-  return isLoading ? (
-    <div>Loading</div>
-  ) : (
-    <div>
-      {categories?.map((category) => {
-        const products = category.items.map((product) => {
-          const imageName = require(`../images/${product?.directory}/${product?.heroImages[0]}`);
-          return (
-            <div>
-              <div>
-                <Link
-                  to={{
-                    pathname: `shop/${product?.directory}`,
-                    state: { product: product },
-                  }}>
-                  {product?.name}
-                </Link>
-              </div>
-              <img src={imageName.default} alt={product.name}></img>
-            </div>
-          );
-        });
+  let shopCategories: any | undefined = [];
+  if (!isLoading) {
+    shopCategories = categories?.map((category) => {
+      const sProps: ShopCategoryProps = {
+        category: category,
+      };
+      sProps.category = category;
+      return <ShopCategory key={category.category} {...sProps} />;
+    });
+  }
 
-        return (
-          <React.Fragment>
-            <div>{category.category}</div>
-            {products}
-          </React.Fragment>
-        );
-      })}
-    </div>
-  );
+  return isLoading ? <div>Loading</div> : <div>{shopCategories}</div>;
 };
 
 export default Shop;
