@@ -3,6 +3,7 @@ import { RouteComponentProps } from 'react-router';
 import { useLocation } from 'react-router';
 import { Product, Purchase, Order } from '../types';
 import { OrderContext } from '../context/OrderContext';
+import { Link } from 'react-router-dom';
 
 interface LocationState {
   state: {
@@ -31,6 +32,7 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
     <React.Fragment>
       <div>Details</div>
       <button onClick={addToCart}>Add to Cart</button>
+      <Link to='/cart'>Goto Shopping Cart</Link>
     </React.Fragment>
   );
 };
