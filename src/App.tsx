@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import ProductDetails from './components/ProductDetails';
-import Shop from './components/Shop';
-import { OrderContext, userOrder } from './OrderContext';
+import Home from './Routes/Home';
+import ProductDetails from './Routes/ProductDetails';
+import Shop from './Routes/Shop';
+import { OrderContext, userOrder } from './context/OrderContext';
 
 function App() {
   return (

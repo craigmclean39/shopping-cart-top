@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Category, ShopCategoryProps } from '../types';
-import ShopCategory from './ShopCategory';
+import ShopCategory from '../components/ShopCategory';
 
 const Shop = () => {
   const [isLoading, setIsLoading] = useState(true);

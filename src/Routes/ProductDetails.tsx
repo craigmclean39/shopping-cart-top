@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { RouteComponentProps } from 'react-router';
 import { useLocation } from 'react-router';
 import { Product, Purchase, Order } from '../types';
-import { OrderContext } from '../OrderContext';
+import { OrderContext } from '../context/OrderContext';
 
 interface LocationState {
   state: {
