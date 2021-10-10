@@ -27,3 +27,13 @@ export interface ShopCategoryProps {
 export interface ProductPreviewCardProps {
   product: Product;
 }
+
+export interface Purchase {
+  name: string;
+  price: number;
+  quantity: number;
+}
+
+export interface Order {
+  items: Purchase[];
+}
