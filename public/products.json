@@ -17,7 +17,17 @@
           "Beta-AR-Jacket-(NAM)-Wildchild.jpg",
           "Beta-AR-Jacket-(NAM)-Black.jpg"
         ],
-        "detailImages": [],
+        "detailImages": [
+          "Beta-AR-Jacket-Komorebi-Front-View.jpg",
+          "Beta-AR-Jacket-Kingfisher-Front-View-v2.jpg",
+          "Beta-AR-Jacket-Komorebi-Full-View.jpg",
+          "Beta-AR-Jacket-Komorebi-Helmet-Compatible-Hood.jpg",
+          "Beta-AR-Jacket-Komorebi-Hem-Adjuster.jpg",
+          "Beta-AR-Jacket-Komorebi-Internal-View.jpg",
+          "Beta-AR-Jacket-Komorebi-Pit-Zip.jpg",
+          "Beta-AR-Jacket-Komorebi-Side-View.jpg",
+          "Beta-AR-Jacket-(NAM)-Black.jpg"
+        ],
         "price": 750,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
         "activities": ["All Round"]
@@ -32,8 +42,20 @@
           "long": "Extreme weather, shifting conditions, varied terrain, motion and rest – these are alpine realities. The Alpha AR is a highly versatile hardshell designed to handle them. With GORE-TEX PRO Most Rugged reinforcements in high wear areas to increase durability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector aids search and rescue, crossover chest pockets are easily accessible, and pit zips add ventilation."
         },
         "colors": ["Glitch", "Wildchild", "Tatsu"],
-        "heroImages": ["Alpha-AR-Jacket-Glitch.jpg", "", ""],
-        "detailImages": [],
+        "heroImages": [
+          "Alpha-AR-Jacket-Glitch.jpg",
+          "Alpha-AR-Jacket-Wildchild.jpg",
+          "Alpha-AR-Jacket-Tatsu.jpg"
+        ],
+        "detailImages": [
+          "Alpha-AR-Jacket-Tatsu-Back-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Front-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Full-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Helmet-Compatible-Hood.jpg",
+          "Alpha-AR-Jacket-Tatsu-Hem-Adjuster.jpg",
+          "Alpha-AR-Jacket-Tatsu-Internal-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Pit-Zip.jpg"
+        ],
         "price": 750,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
         "activities": [
@@ -58,8 +80,23 @@
           "long": "Arc'teryx developed its own fabric to achieve the hardwearing durability necessary for alpine and rock climbing. Prioritizing abrasion and tear resistance, a liquid crystal polymer ripstop grid is incorporated in a high tenacity nylon fabric. Extremely versatile, customizable options and a large 55L capacity suits the needs of multi-day alpine adventures. A removable framesheet and an adjustable, removable top lid give the option to shed weight. Custom webbing daisy chains securely lash gear and ice pick capture accommodates a range of angles."
         },
         "colors": ["Dynasty", "Pegasus"],
-        "heroImages": ["Alpha-AR-55-Backpack-Dynasty.jpg", ""],
-        "detailImages": [],
+        "heroImages": [
+          "Alpha-AR-55-Backpack-Dynasty.jpg",
+          "Alpha-AR-55-Backpack-Pegasus.jpg"
+        ],
+        "detailImages": [
+          "Alpha-AR-55-Backpack-Pegasus-Back-View.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Full-View.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Hip-Belt-V2.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Main-Compartment.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-Detail.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-Detail-V1.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-View.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-View-V3.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Suspension.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Top-Closure-Cinch.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Top-Lid-Pocket.jpg"
+        ],
         "price": 240,
         "sizes": ["SRT", "REG"],
         "activities": ["Ice Climbing", "Alpine Climbing"]
