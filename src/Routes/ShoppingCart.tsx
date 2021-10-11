@@ -5,7 +5,9 @@ const ShoppingCart = () => {
   const order = useContext(OrderContext);
 
   const items = order.items.map((item) => {
-    return <div>{`${item.name} ${item.colorName}`}</div>;
+    return (
+      <div>{`${item.name} ${item.colorName} Quantity: ${item.quantity}`}</div>
+    );
   });
 
   return (

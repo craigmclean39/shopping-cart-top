@@ -4,6 +4,7 @@ import { useLocation } from 'react-router';
 import { Product, Purchase, Order } from '../types';
 import { OrderContext } from '../context/OrderContext';
 import { Link } from 'react-router-dom';
+import { arePurchasesEqual } from '../helpers';
 
 interface LocationState {
   state: {
@@ -21,7 +22,6 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
   const location = useLocation() as LocationState;
   const product = location.state.product;
   const order = useContext(OrderContext) as Order;
-
   const [color, setColor] = useState(0);
 
   const imageName = require(`../images/${product?.directory}/${product?.heroImages[color]}`);
@@ -61,8 +61,15 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
       colorName: product.colors[color],
     };
 
-    if (order.items.includes(newPurchase)) {
-    } else {
+    let quantityUpdate = false;
+    for (let i = 0; i < order.items.length; i++) {
+      if (arePurchasesEqual(order.items[i], newPurchase)) {
+        order.items[i].quantity = order.items[i].quantity + 1;
+        quantityUpdate = true;
+        break;
+      }
+    }
+    if (!quantityUpdate) {
       order.items.push(newPurchase);
     }
   };
