@@ -33,7 +33,7 @@ html {
 }
 
 .shop-link {
-  font-size: 5rem;
+  font-size: clamp(2rem, min(5vh, 5vw), 5rem);
   text-decoration: inherit;
   color: white;
   grid-row: 5;
@@ -89,4 +89,32 @@ html {
   font-size: 1.4rem;
   font-weight: bold;
   padding: 0.5rem;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-details--name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-details--description {
+  font-size: 1.2rem;
+}
+
+.product-details--colors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-details--color-preview {
+  width: 5rem;
+  height: auto;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border: solid 1px black;
 }

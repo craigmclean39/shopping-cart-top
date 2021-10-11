@@ -31,6 +31,8 @@ export interface ProductPreviewCardProps {
 export interface Purchase {
   name: string;
   price: number;
+  colorIndex: number;
+  colorName: string;
   quantity: number;
 }
 
