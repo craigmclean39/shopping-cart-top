@@ -8,9 +8,8 @@ const Home = () => {
       <div className='main-page'>
         <div className='main-img-link-grid'>
           <Link className='shop-link' to='/shop'>
-            Shop
+            SHOP
           </Link>
-          <div className='circle-bg'></div>
           <img className='hero-img' src={HeroImage} alt=''></img>
         </div>
       </div>

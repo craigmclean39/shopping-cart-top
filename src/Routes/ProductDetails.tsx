@@ -3,8 +3,8 @@ import { RouteComponentProps } from 'react-router';
 import { useLocation } from 'react-router';
 import { Product, Purchase, Order } from '../types';
 import { OrderContext } from '../context/OrderContext';
-import { Link } from 'react-router-dom';
 import { arePurchasesEqual } from '../helpers';
+import { Header } from '../components/Header';
 
 interface LocationState {
   state: {
@@ -70,23 +70,23 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
       }
     }
     if (!quantityUpdate) {
-      order.items.push(newPurchase);
+      order.items = order.items.concat(newPurchase);
     }
   };
 
-  console.log('Order');
-  console.log(order);
   return (
     <React.Fragment>
-      <div className='product-details'>
-        <h2 className='product-details--name'>{product.name}</h2>
-        <p className='product-details--description'>
-          {product.description.short}
-        </p>
-        <img src={imageName.default} alt={product.name}></img>
-        <div className='product-details--colors'>{colorPreviews}</div>
-        <button onClick={addToCart}>Add to Cart</button>
-        <Link to='/cart'>Goto Shopping Cart</Link>
+      <Header />
+      <div className='product-details-wrapper'>
+        <div className='product-details'>
+          <h2 className='product-details--name'>{product.name}</h2>
+          <p className='product-details--description'>
+            {product.description.short}
+          </p>
+          <img src={imageName.default} alt={product.name}></img>
+          <div className='product-details--colors'>{colorPreviews}</div>
+          <button onClick={addToCart}>Add to Cart</button>
+        </div>
       </div>
     </React.Fragment>
   );

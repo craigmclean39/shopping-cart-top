@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
 .link {
@@ -17,28 +18,31 @@ html {
 
 .main-img-link-grid {
   display: grid;
-  width: clamp(320px, 80vw, 100vw);
-  height: auto;
-  max-height: 100vh;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
   overflow: hidden;
+  width: max-content;
+  height: max-content;
 }
 
 .hero-img {
-  width: clamp(320px, 80vw, 100vw);
-  height: auto;
-  grid-column: 1 / span 3;
-  grid-row: 1 / span 5;
+  width: auto;
+  height: min(90vh, 120vw);
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .shop-link {
-  font-size: clamp(2rem, min(5vh, 5vw), 5rem);
+  font-family: 'Ropa Sans';
+  font-size: clamp(2rem, min(8vh, 8vw), 8rem);
+  font-weight: bold;
   text-decoration: inherit;
   color: white;
-  grid-row: 5;
-  grid-column: 3;
+  grid-row: 1;
+  grid-column: 1;
   z-index: 1;
+  justify-self: end;
+  align-self: end;
+  margin-bottom: clamp(5rem, 10vh, 15rem);
+  margin-right: clamp(5rem, 10vh, 15rem);
 }
 
 .shop-category {
@@ -50,6 +54,7 @@ html {
 .shop-category--title {
   font-size: 2rem;
   font-weight: bold;
+  font-family: 'Ropa Sans';
 }
 
 .shop-category--products-wrapper {
@@ -74,6 +79,7 @@ html {
 }
 
 .product-preview-card--name {
+  font-family: 'Ropa Sans';
   font-size: 1.4rem;
   font-weight: 500;
   margin-top: 0.8rem;
@@ -86,24 +92,37 @@ html {
 }
 
 .product-preview-card--price {
+  font-family: 'Ropa Sans';
   font-size: 1.4rem;
   font-weight: bold;
   padding: 0.5rem;
+}
+
+.product-details-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
 .product-details {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: min-content;
 }
 
 .product-details--name {
+  font-family: 'Ropa Sans';
   font-size: 2rem;
   font-weight: bold;
 }
 
 .product-details--description {
   font-size: 1.2rem;
+  text-align: center;
+  width: 60%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .product-details--colors {
@@ -117,4 +136,19 @@ html {
   padding: 0.25rem;
   margin: 0.25rem;
   border: solid 1px black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: clamp(50px, 10vw, 100px);
+  margin: 1rem;
+}
+
+.header-cart {
+  margin: 1rem;
 }
