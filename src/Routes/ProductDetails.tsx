@@ -87,7 +87,10 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
           <p className='product-details--description'>
             {product.description.short}
           </p>
-          <img src={imageName.default} alt={product.name}></img>
+          <img
+            className='product-details--hero'
+            src={imageName.default}
+            alt={product.name}></img>
           <div className='product-details--colors'>{colorPreviews}</div>
           <button onClick={addToCart}>Add to Cart</button>
         </div>

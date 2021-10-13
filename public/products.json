@@ -64,6 +64,50 @@
           "Alpine Climbing",
           "Expedition"
         ]
+      },
+      {
+        "directory": "cerium-lt-hoody",
+        "category": "Jacket",
+        "name": "Cerium LT Hoody",
+        "description": {
+          "preview": "Lightweight (LT) down hoody for cool, dry conditions.",
+          "short": "Lightweight, versatile down hoody provides exceptional warmth for its weight. Down Series: Down insulated garments",
+          "long": "Streamlined in its design, and with an exceptional warmth-to-weight ratio, the Cerium LT hoody works as a mid layer or a standalone piece in cool, dry conditions. Premium 850 fill-power down is lofty and resilient, the Arato™ 10 nylon shell provides lightweight durability, and Down Composite Mapping™ strategically places Coreloft™ synthetic insulation in moisture-prone areas. Articulated construction moves with the body, and the insulated StormHood™ provides coverage without compromising range of vision."
+        },
+        "colors": [
+          "Black",
+          "Cobalt Moon",
+          "Dark Elysium",
+          "Distortion",
+          "Forcefield",
+          "Komorebi",
+          "Phantasm"
+        ],
+        "heroImages": [
+          "Cerium-LT-Hoody-(NAM)-Black.jpg",
+          "Cerium-LT-Hoody-(NAM)-Cobalt-Moon.jpg",
+          "Cerium-LT-Hoody-(NAM)-Dark-Elysium.jpg",
+          "Cerium-LT-Hoody-(NAM)-Distortion.jpg",
+          "Cerium-LT-Hoody-(NAM)-Forcefield.jpg",
+          "Cerium-LT-Hoody-(NAM)-Komorebi.jpg",
+          "Cerium-LT-Hoody-(NAM)-Phantasm.jpg"
+        ],
+        "detailImages": [
+          "Cerium-LT-Hoody-Dark-Elysium-Front-View.jpg",
+          "Cerium-LT-Hoody-Distortion-Front-View.jpg",
+          "Cerium-LT-Hoody-Forcefield-Front-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Back-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Front-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Full-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Hem-Adjuster.jpg",
+          "Cerium-LT-Hoody-Komorebi-Hood.jpg",
+          "Cerium-LT-Hoody-Komorebi-Outfit.jpg",
+          "Cerium-LT-Hoody-Komorebi-Packed.jpg",
+          "Cerium-LT-Hoody-Phantasm-Front-View.jpg"
+        ],
+        "price": 450,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
       }
     ]
   },
@@ -100,6 +144,71 @@
         "price": 240,
         "sizes": ["SRT", "REG"],
         "activities": ["Ice Climbing", "Alpine Climbing"]
+      },
+      {
+        "directory": "alpha-ar-35",
+        "category": "Backpack",
+        "name": "Alpha AR 35 Backpack",
+        "description": {
+          "preview": "All round (AR), durable, versatile alpine pack.",
+          "short": "Durable and versatile single day pack for multi-pitch rock, alpine and ice climbing. Alpha Series: Climbing and alpine focused systems ",
+          "long": "Arc'teryx developed its own fabric to achieve the hardwearing durability necessary for alpine and rock climbing. Prioritizing abrasion and tear resistance, a liquid crystal polymer ripstop grid is incorporated in a high tenacity nylon fabric. Extremely versatile, customizable options suits the needs of varied alpine adventures. A removable framesheet and an adjustable, removable top lid give the option to shed weight. Custom webbing daisy chains securely lash gear and ice pick capture accommodates a range of angles."
+        },
+        "colors": ["Dynasty", "Pegasus"],
+        "heroImages": [
+          "Alpha-AR-35-Backpack-Dynasty.jpg",
+          "Alpha-AR-35-Backpack-Pegasus.jpg"
+        ],
+        "detailImages": [
+          "Alpha-AR-35-Backpack-Dynasty-Front-View.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Hipbelt.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Main-Compartment-2.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Main-Compartment.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Outfit.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Side-View.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Sternum-Strap.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Closure-Cinch-2.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Closure-Cinch.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Lid-External-Pocket.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Lid-Pocket.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Strap.jpg"
+        ],
+        "price": 220,
+        "sizes": ["SRT", "REG"],
+        "activities": ["Rock Climbing", "Alpine Climbing"]
+      }
+    ]
+  },
+  {
+    "category": "Fleece",
+    "items": [
+      {
+        "directory": "delta-lt-hoody",
+        "category": "Fleece",
+        "name": "Delta LT Hoody",
+        "description": {
+          "preview": "Lightweight (LT), versatile fleece hoody.",
+          "short": "Versatile, lightweight microfleece hoody that works as a midlayer or as a standalone in cool weather. Delta Series: Mid layer fleece",
+          "long": "One of the most versatile fleece jackets Arc’teryx has ever designed, the Delta LT provides effective warmth with little weight. Quick drying, air permeable Polartec® Classic 100 micro velour small grid and articulated construction focused on ergonomic freedom and performance comfort make the Delta LT extremely versatile. The Delta LT layers easily under a hardshell, but as a standalone adds light insulation for higher output in cool conditions. The design is a longer and slightly more relaxed trim fit. A low profile ScubaHood™ adds more warmth and fits under a helmet."
+        },
+        "colors": ["Paradigm", "Binary", "Exosphere", "Black"],
+        "heroImages": [
+          "Delta-LT-Hoody-Paradigm.jpg",
+          "Delta-LT-Hoody-Binary.jpg",
+          "Delta-LT-Hoody-Exosphere.jpg",
+          "Delta-LT-Hoody-Black.jpg"
+        ],
+        "detailImages": [
+          "Delta-LT-Hoody-Paradigm-Full-View.jpg",
+          "Delta-LT-Hoody-Paradigm-Front-View.jpg",
+          "Delta-LT-Hoody-Paradigm-Back-View.jpg",
+          "Delta-LT-Hoody-Paradigm-Hand-Pocket.jpg",
+          "Delta-LT-Hoody-Paradigm-Hood-Up.jpg",
+          "Delta-LT-Hoody-Paradigm-Fabric.jpg"
+        ],
+        "price": 170,
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
       }
     ]
   }

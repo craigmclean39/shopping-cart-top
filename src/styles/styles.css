@@ -49,6 +49,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 4rem;
+  margin-top: 2rem;
 }
 
 .shop-category--title {
@@ -89,6 +91,7 @@ html {
 .product-preview-card--description {
   font-size: 1.2rem;
   text-align: center;
+  margin: 0.25rem;
 }
 
 .product-preview-card--price {
@@ -109,6 +112,7 @@ html {
   flex-direction: column;
   align-items: center;
   width: min-content;
+  max-width: 90vw;
 }
 
 .product-details--name {
@@ -123,6 +127,10 @@ html {
   width: 60%;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.product-details--hero {
+  max-width: 90vw;
 }
 
 .product-details--colors {

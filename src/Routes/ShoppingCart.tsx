@@ -6,7 +6,10 @@ const ShoppingCart = () => {
 
   const items = order.items.map((item) => {
     return (
-      <div>{`${item.name} ${item.colorName} Quantity: ${item.quantity}`}</div>
+      <div
+        key={
+          item.name + item.colorName
+        }>{`${item.name} ${item.colorName} Quantity: ${item.quantity}`}</div>
     );
   });
 

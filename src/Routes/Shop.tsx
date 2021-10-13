@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Category, ShopCategoryProps } from '../types';
 import ShopCategory from '../components/ShopCategory';
 import { RouteComponentProps } from 'react-router';
+import { Header } from '../components/Header';
 
 const Shop: React.FC<RouteComponentProps> = (props) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,7 +41,14 @@ const Shop: React.FC<RouteComponentProps> = (props) => {
     });
   }
 
-  return isLoading ? <div>Loading</div> : <div>{shopCategories}</div>;
+  return isLoading ? (
+    <div>Loading</div>
+  ) : (
+    <React.Fragment>
+      <Header />
+      <div>{shopCategories}</div>
+    </React.Fragment>
+  );
 };
 
 export default Shop;
