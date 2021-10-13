@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { OrderContext } from '../context/OrderContext';
+import { OrderContext, OrderContextType } from '../context/OrderContext';
 
 const ShoppingCart = () => {
-  const order = useContext(OrderContext);
+  const { order } = useContext(OrderContext) as OrderContextType;
 
   const items = order.items.map((item) => {
     return (

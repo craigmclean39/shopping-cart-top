@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
 import { RouteComponentProps } from 'react-router';
 import { useLocation } from 'react-router';
-import { Product, Purchase, Order } from '../types';
-import { OrderContext } from '../context/OrderContext';
+import { Product, Purchase } from '../types';
+import { OrderContext, OrderContextType } from '../context/OrderContext';
 import { arePurchasesEqual } from '../helpers';
 import { Header } from '../components/Header';
 
@@ -21,7 +21,7 @@ interface ColorInfo {
 const ProductDetails: React.FC<RouteComponentProps> = (props) => {
   const location = useLocation() as LocationState;
   const product = location.state.product;
-  const order = useContext(OrderContext) as Order;
+  const { order, updateOrder } = useContext(OrderContext) as OrderContextType;
   const [color, setColor] = useState(0);
 
   const imageName = require(`../images/${product?.directory}/${product?.heroImages[color]}`);
@@ -61,16 +61,20 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
       colorName: product.colors[color],
     };
 
+    let orderCopy = Object.assign({}, order);
+
     let quantityUpdate = false;
-    for (let i = 0; i < order.items.length; i++) {
-      if (arePurchasesEqual(order.items[i], newPurchase)) {
-        order.items[i].quantity = order.items[i].quantity + 1;
+    for (let i = 0; i < orderCopy.items.length; i++) {
+      if (arePurchasesEqual(orderCopy.items[i], newPurchase)) {
+        orderCopy.items[i].quantity = order.items[i].quantity + 1;
+        updateOrder(orderCopy);
         quantityUpdate = true;
         break;
       }
     }
     if (!quantityUpdate) {
-      order.items = order.items.concat(newPurchase);
+      orderCopy.items = order.items.concat(newPurchase);
+      updateOrder(orderCopy);
     }
   };
 

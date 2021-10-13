@@ -1,4 +1,9 @@
 import React from 'react';
 import { Order } from '../types';
-export const userOrder: Order = { items: [] };
-export const OrderContext = React.createContext(userOrder);
+
+export type OrderContextType = {
+  order: Order;
+  updateOrder: (updatedOrder: Order) => void;
+};
+
+export const OrderContext = React.createContext<OrderContextType | null>(null);

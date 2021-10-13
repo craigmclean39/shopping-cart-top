@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Category, ShopCategoryProps } from '../types';
 import ShopCategory from '../components/ShopCategory';
+import { RouteComponentProps } from 'react-router';
 
-const Shop = () => {
+const Shop: React.FC<RouteComponentProps> = (props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [categories, setCategories] = useState<Category[] | null>(null);
 
