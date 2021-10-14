@@ -21,7 +21,7 @@ export const Header: React.FC = (props) => {
       </div>
       <div className='header-right'>
         <Link className='link' to='/cart'>
-          {quantity}
+          <div className='header--quantity'>{quantity}</div>
           <img
             className='header-cart'
             alt='shopping cart'

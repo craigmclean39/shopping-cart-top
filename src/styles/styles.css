@@ -30,6 +30,16 @@ html {
   grid-row: 1;
 }
 
+.shop-wrapper {
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-container {
+  max-width: 1024px;
+}
+
 .shop-link {
   font-family: 'Ropa Sans';
   font-size: clamp(2rem, min(8vh, 8vw), 8rem);
@@ -155,6 +165,25 @@ nav {
 .header-logo {
   width: clamp(50px, 10vw, 100px);
   margin: 1rem;
+}
+
+.header-right > .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+}
+
+.header--quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
 }
 
 .header-cart {

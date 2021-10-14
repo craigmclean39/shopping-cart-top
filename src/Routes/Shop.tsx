@@ -46,7 +46,9 @@ const Shop: React.FC<RouteComponentProps> = (props) => {
   ) : (
     <React.Fragment>
       <Header />
-      <div>{shopCategories}</div>
+      <div className='shop-wrapper'>
+        <div className='shop-container'>{shopCategories}</div>
+      </div>
     </React.Fragment>
   );
 };
