@@ -4,22 +4,6 @@ import { Link } from 'react-router-dom';
 const ProductPreviewCard: React.FC<ProductPreviewCardProps> = (props) => {
   const { product } = props;
   const imageName = require(`../images/${product?.directory}/${product?.heroImages[0]}`);
-  /* const products = category.items.map((product) => {
-          const imageName = require(`../images/${product?.directory}/${product?.heroImages[0]}`);
-          return (
-            <div>
-              <div>
-                <Link
-                  to={{
-                    pathname: `shop/${product?.directory}`,
-                    state: { product: product },
-                  }}>
-                  {product?.name}
-                </Link>
-              </div>
-              <img src={imageName.default} alt={product.name}></img>
-            </div>
-          ); */
 
   return (
     <Link

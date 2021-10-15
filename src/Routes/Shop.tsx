@@ -22,7 +22,6 @@ const Shop: React.FC<RouteComponentProps> = (props) => {
       const category: Category[] = [];
       for (let i = 0; i < data.length; i++) {
         category.push(data[i]);
-        console.log(data[i]);
       }
       setCategories(category);
     }
