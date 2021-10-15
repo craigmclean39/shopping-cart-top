@@ -101,6 +101,13 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
           <p className='product-details--description-long'>
             {product.description.long}
           </p>
+
+          <p className='product-details--activities'>
+            Activities:{' |'}
+            {product.activities.map((activity) => {
+              return ` ${activity} |`;
+            })}
+          </p>
           <button onClick={addToCart}>Add to Cart</button>
         </div>
       </div>

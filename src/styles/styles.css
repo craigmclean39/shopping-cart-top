@@ -147,6 +147,11 @@ html {
   margin-bottom: 2rem;
 }
 
+.product-details--activities {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
 .product-details--hero {
   max-width: 90vw;
   margin-bottom: 2rem;
@@ -156,6 +161,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 .product-details--color-preview {
