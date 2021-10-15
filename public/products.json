@@ -75,20 +75,20 @@
           "long": "Streamlined in its design, and with an exceptional warmth-to-weight ratio, the Cerium LT hoody works as a mid layer or a standalone piece in cool, dry conditions. Premium 850 fill-power down is lofty and resilient, the Arato™ 10 nylon shell provides lightweight durability, and Down Composite Mapping™ strategically places Coreloft™ synthetic insulation in moisture-prone areas. Articulated construction moves with the body, and the insulated StormHood™ provides coverage without compromising range of vision."
         },
         "colors": [
+          "Forcefield",
           "Black",
           "Cobalt Moon",
           "Dark Elysium",
           "Distortion",
-          "Forcefield",
           "Komorebi",
           "Phantasm"
         ],
         "heroImages": [
+          "Cerium-LT-Hoody-(NAM)-Forcefield.jpg",
           "Cerium-LT-Hoody-(NAM)-Black.jpg",
           "Cerium-LT-Hoody-(NAM)-Cobalt-Moon.jpg",
           "Cerium-LT-Hoody-(NAM)-Dark-Elysium.jpg",
           "Cerium-LT-Hoody-(NAM)-Distortion.jpg",
-          "Cerium-LT-Hoody-(NAM)-Forcefield.jpg",
           "Cerium-LT-Hoody-(NAM)-Komorebi.jpg",
           "Cerium-LT-Hoody-(NAM)-Phantasm.jpg"
         ],
@@ -106,6 +106,34 @@
           "Cerium-LT-Hoody-Phantasm-Front-View.jpg"
         ],
         "price": 450,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      },
+      {
+        "directory": "squamish-hoody",
+        "category": "Jacket",
+        "name": "Squamish Hoody",
+        "description": {
+          "preview": "Light, compressible, windshell.",
+          "short": "The legendary Arc’teryx windshell built for mild, but shifting, conditions.",
+          "long": "Squamish, BC, home to climbers, hikers and skiers, is a unique place where mountains meet the coast. Over time, its namesake hoody has proven itself essential, packable wind protection with active adventure in mild, but shifting weather. Made with Tyono™ 30 nylon, an advanced, highly wind-resistant fabric that offers surprising strength for its weight, the Squamish Hoody features ultralight minimalist construction, an adjustable Stormhood™, No Slip Zip™, dual hem adjustments and stows in its chest pocket so you can easily stash it in a pack or clip it to a harness."
+        },
+        "colors": ["Ignite", "Black", "Distortion", "Hyperspace"],
+        "heroImages": [
+          "Squamish-Hoody-Ignite.jpg",
+          "Squamish-Hoody-Black.jpg",
+          "Squamish-Hoody-Distortion.jpg",
+          "Squamish-Hoody-Hyperspace.jpg"
+        ],
+        "detailImages": [
+          "Squamish-Hoody-Distortion-Back-View.jpg",
+          "Squamish-Hoody-Distortion-Front-View.jpg",
+          "Squamish-Hoody-Distortion-Full-View.jpg",
+          "Squamish-Hoody-Distortion-Hem-Adjuster.jpg",
+          "Squamish-Hoody-Distortion-Hood.jpg",
+          "Squamish-Hoody-Distortion-Packed.jpg"
+        ],
+        "price": 200,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
         "activities": ["All Round"]
       }
