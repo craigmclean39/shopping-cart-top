@@ -46,6 +46,7 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
         key={info.color}
         src={info.image}
         alt={info.color}
+        title={info.color}
         onClick={() => {
           setColor(info.index);
         }}></img>
@@ -59,6 +60,9 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
       quantity: 1,
       colorIndex: color,
       colorName: product.colors[color],
+      image:
+        require(`../images/${product?.directory}/${product?.heroImages[color]}`)
+          .default,
     };
 
     let orderCopy = Object.assign({}, order);
@@ -91,7 +95,12 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
             className='product-details--hero'
             src={imageName.default}
             alt={product.name}></img>
+
           <div className='product-details--colors'>{colorPreviews}</div>
+          <h5 className='product-details--price'>{`$${product.price}`}</h5>
+          <p className='product-details--description-long'>
+            {product.description.long}
+          </p>
           <button onClick={addToCart}>Add to Cart</button>
         </div>
       </div>

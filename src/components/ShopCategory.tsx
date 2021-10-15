@@ -3,8 +3,6 @@ import { ShopCategoryProps } from '../types';
 import ProductPreviewCard from './ProductPreviewCard';
 
 const ShopCategory: React.FC<ShopCategoryProps> = (props) => {
-  console.log(props);
-
   const products = props.category.items.map((product) => {
     const previewProps = {
       product: product,

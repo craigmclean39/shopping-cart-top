@@ -37,6 +37,7 @@ html {
 }
 
 .shop-container {
+  width: clamp(300px, 90vw, 1024px);
   max-width: 1024px;
 }
 
@@ -63,7 +64,8 @@ html {
   margin-top: 2rem;
 }
 
-.shop-category--title {
+.shop-category--title,
+.shopping-cart--title {
   font-size: 2rem;
   font-weight: bold;
   font-family: 'Ropa Sans';
@@ -71,6 +73,7 @@ html {
 
 .shop-category--products-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-preview-card {
@@ -80,14 +83,12 @@ html {
   align-items: center;
   width: clamp(150px, 30vw, 200px);
   margin: 1.2rem;
-  border: solid 1px red;
 }
 
 .product-preview-card--image {
   width: clamp(150px, 30vw, 200px);
   height: auto;
   margin-top: 1.6rem;
-  border: solid 1px black;
 }
 
 .product-preview-card--name {
@@ -105,7 +106,6 @@ html {
 }
 
 .product-preview-card--price {
-  font-family: 'Ropa Sans';
   font-size: 1.4rem;
   font-weight: bold;
   padding: 0.5rem;
@@ -139,13 +139,23 @@ html {
   margin-bottom: 2rem;
 }
 
+.product-details--description-long {
+  font-size: 1.4rem;
+  text-align: center;
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .product-details--hero {
   max-width: 90vw;
+  margin-bottom: 2rem;
 }
 
 .product-details--colors {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .product-details--color-preview {
@@ -153,7 +163,13 @@ html {
   height: auto;
   padding: 0.25rem;
   margin: 0.25rem;
-  border: solid 1px black;
+  cursor: pointer;
+}
+
+.product-details--price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.5rem;
 }
 
 nav {
@@ -188,4 +204,29 @@ nav {
 
 .header-cart {
   margin: 1rem;
+}
+
+.shopping-cart--title {
+  margin-top: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.cart-item--image {
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.cart-item--details-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item--details {
+  font-size: 1.4rem;
+  padding: 0.25rem 0.25rem;
 }

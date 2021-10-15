@@ -24,6 +24,10 @@ export interface ShopCategoryProps {
   category: Category;
 }
 
+export interface CartItemProps {
+  item: Purchase;
+}
+
 export interface ProductPreviewCardProps {
   product: Product;
 }
@@ -34,6 +38,7 @@ export interface Purchase {
   colorIndex: number;
   colorName: string;
   quantity: number;
+  image: string;
 }
 
 export interface Order {
