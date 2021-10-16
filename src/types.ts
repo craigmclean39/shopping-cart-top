@@ -37,6 +37,12 @@ export interface ProductPreviewCardProps {
   product: Product;
 }
 
+export interface ImageCarouselProps {
+  images: string[];
+  directory: string;
+  displayDetails(index: number, fromButton: boolean): any;
+}
+
 export interface Purchase {
   name: string;
   price: number;

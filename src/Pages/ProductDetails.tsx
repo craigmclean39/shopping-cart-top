@@ -5,6 +5,7 @@ import { Product, Purchase } from '../types';
 import { OrderContext, OrderContextType } from '../context/OrderContext';
 import { arePurchasesEqual } from '../helpers';
 import { Header } from '../components/Header';
+import { ImageCarousel } from '../components/ImageCarousel';
 
 interface LocationState {
   state: {
@@ -23,8 +24,12 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
   const product = location.state.product;
   const { order, updateOrder } = useContext(OrderContext) as OrderContextType;
   const [color, setColor] = useState(0);
+  const [showDetails, setShowDetails] = useState(false);
+  const [detailIndex, setDetailIndex] = useState(0);
 
-  const imageName = require(`../images/${product?.directory}/${product?.heroImages[color]}`);
+  const imageName = showDetails
+    ? require(`../images/${product?.directory}/details/${product.detailImages[detailIndex]}`)
+    : require(`../images/${product?.directory}/${product?.heroImages[color]}`);
 
   let colorDetails: ColorInfo[] = [];
   for (let i = 0; i < product.colors.length; i++) {
@@ -49,6 +54,7 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
         title={info.color}
         onClick={() => {
           setColor(info.index);
+          setShowDetails(false);
         }}></img>
     );
   });
@@ -82,6 +88,14 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
     }
   };
 
+  const displayDetails = (index: number, fromButton: boolean) => {
+    if (showDetails === false && fromButton) {
+      return;
+    }
+    setShowDetails(true);
+    setDetailIndex(index);
+  };
+
   return (
     <React.Fragment>
       <Header />
@@ -98,6 +112,11 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
 
           <div className='product-details--colors'>{colorPreviews}</div>
           <h5 className='product-details--price'>{`$${product.price}`}</h5>
+          <ImageCarousel
+            images={product.detailImages}
+            directory={product.directory}
+            displayDetails={displayDetails}
+          />
           <p className='product-details--description-long'>
             {product.description.long}
           </p>
@@ -108,7 +127,9 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
               return ` ${activity} |`;
             })}
           </p>
-          <button onClick={addToCart}>Add to Cart</button>
+          <button className='product-details--add-button' onClick={addToCart}>
+            Add to Cart
+          </button>
         </div>
       </div>
     </React.Fragment>

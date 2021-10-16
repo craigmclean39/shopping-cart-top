@@ -178,6 +178,17 @@ html {
   padding: 0.5rem;
 }
 
+.product-details--add-button {
+  margin: 1rem;
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -277,5 +288,43 @@ nav {
   width: 2.8rem;
   font-weight: bold;
   font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.image-carousel--container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.image-carousel--image,
+.image-carousel--selected-image {
+  width: 10rem;
+  opacity: 0.5;
+  padding: 1rem;
+  cursor: pointer;
+  transition: padding 300ms ease-in-out;
+}
+
+.image-carousel--selected-image {
+  opacity: 1;
+  padding: 0.5rem;
+  transition: opacity 300ms ease-out;
+}
+
+.image-carousel--image-wrapper {
+  overflow: hidden;
+}
+
+.image-carousel--image-container {
+  display: flex;
+  width: max-content;
+  transition: transform 300ms ease-in-out;
+}
+
+.image-carousel--button {
+  border: none;
+  background-color: transparent;
   cursor: pointer;
 }
