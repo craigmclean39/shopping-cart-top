@@ -6,6 +6,7 @@ import { OrderContext, OrderContextType } from '../context/OrderContext';
 import { arePurchasesEqual } from '../helpers';
 import { Header } from '../components/Header';
 import { ImageCarousel } from '../components/ImageCarousel';
+import { Link } from 'react-router-dom';
 
 interface LocationState {
   state: {
@@ -96,9 +97,17 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
     setDetailIndex(index);
   };
 
+  const headerLinks: JSX.Element[] = [];
+  headerLinks.push(
+    <Link className='link breadcrumb-link' to='/shop'>
+      Shop
+    </Link>
+  );
+  headerLinks.push(<div>{product.name}</div>);
+
   return (
     <React.Fragment>
-      <Header />
+      <Header links={headerLinks} />
       <div className='product-details-wrapper'>
         <div className='product-details'>
           <h2 className='product-details--name'>{product.name}</h2>

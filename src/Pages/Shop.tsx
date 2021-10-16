@@ -3,6 +3,7 @@ import { Category, ShopCategoryProps } from '../types';
 import ShopCategory from '../components/ShopCategory';
 import { RouteComponentProps } from 'react-router';
 import { Header } from '../components/Header';
+import { Link } from 'react-router-dom';
 
 const Shop: React.FC<RouteComponentProps> = (props) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,13 +41,23 @@ const Shop: React.FC<RouteComponentProps> = (props) => {
     });
   }
 
-  return isLoading ? (
-    <div>Loading</div>
-  ) : (
+  const headerLinks: JSX.Element[] = [];
+  headerLinks.push(
+    <Link className='link breadcrumb-link' to='/shop'>
+      Shop
+    </Link>
+  );
+
+  return (
     <React.Fragment>
-      <Header />
+      <Header links={headerLinks} />
+
       <div className='shop-wrapper'>
-        <div className='shop-container'>{shopCategories}</div>
+        {isLoading ? (
+          <div>Loading</div>
+        ) : (
+          <div className='shop-container'>{shopCategories}</div>
+        )}
       </div>
     </React.Fragment>
   );

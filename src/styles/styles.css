@@ -154,6 +154,7 @@ html {
 
 .product-details--hero {
   max-width: 90vw;
+  max-height: 60rem;
   margin-bottom: 2rem;
 }
 
@@ -189,9 +190,17 @@ html {
   cursor: pointer;
 }
 
-nav {
+.header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumbs-container {
+  margin-left: 2rem;
+  font-family: 'Ropa Sans';
+  font-size: 1.2rem;
+  display: flex;
   align-items: center;
 }
 
@@ -327,4 +336,13 @@ nav {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.breadcrumb-link {
+  margin: 0.25rem;
+}
+
+.breadcrumb-divider {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }

@@ -3,6 +3,7 @@ import { OrderContext, OrderContextType } from '../context/OrderContext';
 import { Header } from '../components/Header';
 import { CartItem } from '../components/CartItem';
 import { CartItemProps } from '../types';
+import { Link } from 'react-router-dom';
 
 const ShoppingCart = () => {
   const { order, updateOrder } = useContext(OrderContext) as OrderContextType;
@@ -45,9 +46,17 @@ const ShoppingCart = () => {
     return prev + current.price * current.quantity;
   }, 0);
 
+  const headerLinks: JSX.Element[] = [];
+  headerLinks.push(
+    <Link className='link breadcrumb-link' to='/shop'>
+      Shop
+    </Link>
+  );
+  headerLinks.push(<div>Shopping Cart</div>);
+
   return (
     <React.Fragment>
-      <Header />
+      <Header links={headerLinks} />
       <div className='shop-wrapper'>
         <div className='shop-container'>
           <div className='shopping-cart--title'>

@@ -43,6 +43,10 @@ export interface ImageCarouselProps {
   displayDetails(index: number, fromButton: boolean): any;
 }
 
+export interface HeaderProps {
+  links: JSX.Element[];
+}
+
 export interface Purchase {
   name: string;
   price: number;
