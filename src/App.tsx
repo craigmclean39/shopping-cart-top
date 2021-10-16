@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './Routes/Home';
-import ProductDetails from './Routes/ProductDetails';
-import Shop from './Routes/Shop';
-import ShoppingCart from './Routes/ShoppingCart';
+import Home from './Pages/Home';
+import ProductDetails from './Pages/ProductDetails';
+import Shop from './Pages/Shop';
+import ShoppingCart from './Pages/ShoppingCart';
 import { OrderContext, OrderContextType } from './context/OrderContext';
 import { useState } from 'react';
 import { Order } from './types';

@@ -26,6 +26,11 @@ export interface ShopCategoryProps {
 
 export interface CartItemProps {
   item: Purchase;
+  handleQuantityUpdate(
+    increment: boolean,
+    itemName: string,
+    colorIndex: number
+  ): any;
 }
 
 export interface ProductPreviewCardProps {
