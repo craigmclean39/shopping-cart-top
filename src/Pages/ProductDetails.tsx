@@ -103,7 +103,7 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
       Shop
     </Link>
   );
-  headerLinks.push(<div>{product.name}</div>);
+  headerLinks.push(<div className='breadcrumb-link'>{product.name}</div>);
 
   return (
     <React.Fragment>

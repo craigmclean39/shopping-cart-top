@@ -52,7 +52,7 @@ const ShoppingCart = () => {
       Shop
     </Link>
   );
-  headerLinks.push(<div>Shopping Cart</div>);
+  headerLinks.push(<div className='breadcrumb-link'>Shopping Cart</div>);
 
   return (
     <React.Fragment>
