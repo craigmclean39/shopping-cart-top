@@ -43,7 +43,10 @@ const Shop: React.FC<RouteComponentProps> = (props) => {
 
   const headerLinks: JSX.Element[] = [];
   headerLinks.push(
-    <Link className='link breadcrumb-link' to='/shop'>
+    <Link
+      key={`shop${Math.random()}`}
+      className='link breadcrumb-link'
+      to='/shop'>
       Shop
     </Link>
   );

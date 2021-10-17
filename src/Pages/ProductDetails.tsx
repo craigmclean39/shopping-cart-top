@@ -99,11 +99,18 @@ const ProductDetails: React.FC<RouteComponentProps> = (props) => {
 
   const headerLinks: JSX.Element[] = [];
   headerLinks.push(
-    <Link className='link breadcrumb-link' to='/shop'>
+    <Link
+      key={`shop${Math.random()}`}
+      className='link breadcrumb-link'
+      to='/shop'>
       Shop
     </Link>
   );
-  headerLinks.push(<div className='breadcrumb-link'>{product.name}</div>);
+  headerLinks.push(
+    <div key={product.directory} className='breadcrumb-link'>
+      {product.name}
+    </div>
+  );
 
   return (
     <React.Fragment>
