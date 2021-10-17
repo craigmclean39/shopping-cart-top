@@ -23,11 +23,24 @@ html {
   height: max-content;
 }
 
+.logo-img {
+  position: absolute;
+  width: clamp(100px, min(30vw, 30vh), 300px);
+
+  margin: 2rem;
+}
+
 .hero-img {
   width: auto;
   height: min(90vh, 120vw);
   grid-column: 1;
   grid-row: 1;
+}
+
+@media (max-width: 700px) {
+  .hero-img {
+    height: 100vh;
+  }
 }
 
 .shop-wrapper {
@@ -39,6 +52,13 @@ html {
 .shop-container {
   width: clamp(300px, 90vw, 1024px);
   max-width: 1024px;
+}
+
+@media (max-width: 790px) {
+  .shop-category--products-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 .shop-link {
