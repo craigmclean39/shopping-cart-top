@@ -110,6 +110,63 @@
         "activities": ["All Round"]
       },
       {
+        "directory": "atom-lt-hoody",
+        "category": "Jacket",
+        "name": "Atom LT Hoody",
+        "description": {
+          "preview": "Lightweight (LT), versatile synthetically insulated hoody.",
+          "short": "Light, versatile synthetically insulated hoody works as a midlayer and standalone. Atom Series: Synthetic insulated midlayers.",
+          "long": "Alpine proven as a midlayer and standalone, this versatile hoody has warmed climbers and backcountry travelers for years. Built to handle a range of conditions and output levels, the latest-generation Atom LT’s Coreloft™ Compact insulation retains its warmth even if wet and has loft retention to withstand years of packing and unpacking. The water resistant Tyono™ 20 face fabric is breathable and durable, stretch side panels improve fit and freedom, and the insulated StormHood™ adds warmth."
+        },
+        "colors": [
+          "24K Black",
+          "Glitch",
+          "Anecdote",
+          "Ignite",
+          "Black",
+          "Kingfisher",
+          "Dark Elysium",
+          "Komorebi",
+          "Dynasty",
+          "Timelapse",
+          "Frenetic"
+        ],
+        "heroImages": [
+          "Atom-LT-Hoody-24K-Black.jpg",
+          "Atom-LT-Hoody-Glitch.jpg",
+          "Atom-LT-Hoody-Anecdote.jpg",
+          "Atom-LT-Hoody-Ignite.jpg",
+          "Atom-LT-Hoody-Black.jpg",
+          "Atom-LT-Hoody-Kingfisher.jpg",
+          "Atom-LT-Hoody-Dark-Elysium.jpg",
+          "Atom-LT-Hoody-Komorebi.jpg",
+          "Atom-LT-Hoody-Dynasty.jpg",
+          "Atom-LT-Hoody-Timelapse.jpg",
+          "Atom-LT-Hoody-Frenetic.jpg"
+        ],
+        "detailImages": [
+          "Atom-LT-Hoody-24K-Black-Front-View.jpg",
+          "Atom-LT-Hoody-Anecdote-Front-View.jpg",
+          "Atom-LT-Hoody-Black-Side-View.jpg",
+          "Atom-LT-Hoody-Dark-Elysium-Front-View.jpg",
+          "Atom-LT-Hoody-Dark-Elysium-Side-View.jpg",
+          "Atom-LT-Hoody-Frenetic-Front-View.jpg",
+          "Atom-LT-Hoody-Glitch-Front-View.jpg",
+          "Atom-LT-Hoody-Ignite-Front-View.jpg",
+          "Atom-LT-Hoody-Kingfisher-Front-View.jpg",
+          "Atom-LT-Hoody-Komorebi-Back-View.jpg",
+          "Atom-LT-Hoody-Komorebi-Full-View.jpg",
+          "Atom-LT-Hoody-Komorebi-Hand-Pocket.jpg",
+          "Atom-LT-Hoody-Komorebi-Hem-Adjuster.jpg",
+          "Atom-LT-Hoody-Komorebi-Hood.jpg",
+          "Atom-LT-Hoody-Komorebi-Outfit.jpg",
+          "Atom-LT-Hoody-Timelapse-Front-View.jpg"
+        ],
+        "price": 320,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      },
+      {
         "directory": "squamish-hoody",
         "category": "Jacket",
         "name": "Squamish Hoody",
@@ -204,6 +261,36 @@
         "price": 220,
         "sizes": ["SRT", "REG"],
         "activities": ["Rock Climbing", "Alpine Climbing"]
+      },
+      {
+        "directory": "brize-32",
+        "category": "Backpack",
+        "name": "Brize 32 Backpack",
+        "description": {
+          "preview": "Daypack for hiking, travel, and everyday use.",
+          "short": "Technical hiking pack that easily transitions to travel and daily use.",
+          "long": "The Brize 32 is designed for extended day hikes and easily transitions to travel and daily use. The main compartment is easily accessed from the top, a zippered pocket on the front provides quick access, side pockets hold water bottles or energy foods, and a top pocket stashes lighter items. An internal pocket organizes headlamp, passport or small essentials. The ergonomic Aeroform™ thermoformed back panel improves airflow and padded shoulder straps provide a comfortable carry."
+        },
+        "colors": ["Tatsu", "Black", "Dark Immersion"],
+        "heroImages": [
+          "Brize-32-Backpack-Tatsu.jpg",
+          "Brize-32-Backpack-Black.jpg",
+          "Brize-32-Backpack-Dark-Immersion.jpg"
+        ],
+        "detailImages": [
+          "Brize-32-Backpack-Dark-Immersion-Back-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Front-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Full-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Ice-Axe-Attachment.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Key-Clip.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Main-Compartment.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Open-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Side-Pocket.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Side-View-V1.jpg"
+        ],
+        "price": 200,
+        "sizes": ["REG"],
+        "activities": ["Hiking", "Trekking", "Around Town"]
       }
     ]
   },
