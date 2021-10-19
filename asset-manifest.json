@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/shopping-cart-top/static/css/main.2757f5c2.chunk.css",
-    "main.js": "/shopping-cart-top/static/js/main.889dcab7.chunk.js",
-    "main.js.map": "/shopping-cart-top/static/js/main.889dcab7.chunk.js.map",
+    "main.css": "/shopping-cart-top/static/css/main.864d94ce.chunk.css",
+    "main.js": "/shopping-cart-top/static/js/main.ddfe3ba3.chunk.js",
+    "main.js.map": "/shopping-cart-top/static/js/main.ddfe3ba3.chunk.js.map",
     "runtime-main.js": "/shopping-cart-top/static/js/runtime-main.7b01029b.js",
     "runtime-main.js.map": "/shopping-cart-top/static/js/runtime-main.7b01029b.js.map",
     "static/js/2.d29fe539.chunk.js": "/shopping-cart-top/static/js/2.d29fe539.chunk.js",
     "static/js/2.d29fe539.chunk.js.map": "/shopping-cart-top/static/js/2.d29fe539.chunk.js.map",
     "index.html": "/shopping-cart-top/index.html",
-    "static/css/main.2757f5c2.chunk.css.map": "/shopping-cart-top/static/css/main.2757f5c2.chunk.css.map",
+    "static/css/main.864d94ce.chunk.css.map": "/shopping-cart-top/static/css/main.864d94ce.chunk.css.map",
     "static/js/2.d29fe539.chunk.js.LICENSE.txt": "/shopping-cart-top/static/js/2.d29fe539.chunk.js.LICENSE.txt",
     "static/media/Alpha-AR-35-Backpack-Dynasty-Front-View.jpg": "/shopping-cart-top/static/media/Alpha-AR-35-Backpack-Dynasty-Front-View.62e34b8b.jpg",
     "static/media/Alpha-AR-35-Backpack-Dynasty-Hipbelt.jpg": "/shopping-cart-top/static/media/Alpha-AR-35-Backpack-Dynasty-Hipbelt.2629184c.jpg",
@@ -146,7 +146,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b01029b.js",
     "static/js/2.d29fe539.chunk.js",
-    "static/css/main.2757f5c2.chunk.css",
-    "static/js/main.889dcab7.chunk.js"
+    "static/css/main.864d94ce.chunk.css",
+    "static/js/main.ddfe3ba3.chunk.js"
   ]
 }
