@@ -6,6 +6,7 @@ import ShoppingCart from './Pages/ShoppingCart';
 import { OrderContext, OrderContextType } from './context/OrderContext';
 import { useState } from 'react';
 import { Order } from './types';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const [order, setOrder] = useState<Order>({ items: [] });
@@ -22,6 +23,7 @@ function App() {
   return (
     <OrderContext.Provider value={orderContextValue}>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <ScrollToTop />
         <Switch>
           <Route exact path='/' component={Home}></Route>
           <Route exact path='/shop' component={Shop}></Route>
