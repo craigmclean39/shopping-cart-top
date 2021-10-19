@@ -21,7 +21,7 @@ function App() {
 
   return (
     <OrderContext.Provider value={orderContextValue}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/' component={Home}></Route>
           <Route exact path='/shop' component={Shop}></Route>

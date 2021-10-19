@@ -2,3 +2,4 @@ node_modules
 yarn.lock
 .vscode
 src/images/Untitled.xcf
+build
