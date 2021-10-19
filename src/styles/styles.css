@@ -142,7 +142,7 @@ html {
   flex-direction: column;
   align-items: center;
   width: min-content;
-  max-width: 90vw;
+  max-width: min(90vw, 1024px);
 }
 
 .product-details--name {
