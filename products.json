@@ -1,0 +1,330 @@
+[
+  {
+    "category": "Jackets",
+    "items": [
+      {
+        "directory": "beta-ar",
+        "category": "Jacket",
+        "name": "Beta AR Jacket",
+        "description": {
+          "preview": "Versatile GORE-TEX PRO shell for all round (AR) use.",
+          "short": "Light, packable, highly versatile GORE-TEX PRO shell with hybrid construction. Beta Series: All round mountain apparel.",
+          "long": "Packable, breathable, durable waterproof protection across the spectrum of alpine environments and activities, the Beta AR Jacket is created to deliver performance versatility. The GORE-TEX PRO with Most Rugged Technology - a next-gen material we developed in collaboration with Gore - delivers maximum durability. The helmet compatible DropHood™ has an internal collar for added protection and an embedded RECCO® reflector improves searchability in emergency situations."
+        },
+        "colors": ["Komorebi", "Wildchild", "Black"],
+        "heroImages": [
+          "Beta-AR-Jacket-(NAM)-Komorebi.jpg",
+          "Beta-AR-Jacket-(NAM)-Wildchild.jpg",
+          "Beta-AR-Jacket-(NAM)-Black.jpg"
+        ],
+        "detailImages": [
+          "Beta-AR-Jacket-Komorebi-Front-View.jpg",
+          "Beta-AR-Jacket-Kingfisher-Front-View-v2.jpg",
+          "Beta-AR-Jacket-Komorebi-Full-View.jpg",
+          "Beta-AR-Jacket-Komorebi-Helmet-Compatible-Hood.jpg",
+          "Beta-AR-Jacket-Komorebi-Hem-Adjuster.jpg",
+          "Beta-AR-Jacket-Komorebi-Internal-View.jpg",
+          "Beta-AR-Jacket-Komorebi-Pit-Zip.jpg",
+          "Beta-AR-Jacket-Komorebi-Side-View.jpg",
+          "Beta-AR-Jacket-(NAM)-Black.jpg"
+        ],
+        "price": 750,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      },
+      {
+        "directory": "alpha-ar",
+        "category": "Jacket",
+        "name": "Alpha AR Jacket",
+        "description": {
+          "preview": "All round (AR) GORE-TEX PRO shell for alpine conditions.",
+          "short": "Versatile GORE-TEX PRO jacket performs across a range of alpine conditions. Alpha Series: Climbing and alpine focused systems.",
+          "long": "Extreme weather, shifting conditions, varied terrain, motion and rest – these are alpine realities. The Alpha AR is a highly versatile hardshell designed to handle them. With GORE-TEX PRO Most Rugged reinforcements in high wear areas to increase durability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector aids search and rescue, crossover chest pockets are easily accessible, and pit zips add ventilation."
+        },
+        "colors": ["Glitch", "Wildchild", "Tatsu"],
+        "heroImages": [
+          "Alpha-AR-Jacket-Glitch.jpg",
+          "Alpha-AR-Jacket-Wildchild.jpg",
+          "Alpha-AR-Jacket-Tatsu.jpg"
+        ],
+        "detailImages": [
+          "Alpha-AR-Jacket-Tatsu-Back-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Front-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Full-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Helmet-Compatible-Hood.jpg",
+          "Alpha-AR-Jacket-Tatsu-Hem-Adjuster.jpg",
+          "Alpha-AR-Jacket-Tatsu-Internal-View.jpg",
+          "Alpha-AR-Jacket-Tatsu-Pit-Zip.jpg"
+        ],
+        "price": 750,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": [
+          "Rock Climbing",
+          "Ice Climbing",
+          "Alpine Climbing",
+          "Expedition"
+        ]
+      },
+      {
+        "directory": "cerium-lt-hoody",
+        "category": "Jacket",
+        "name": "Cerium LT Hoody",
+        "description": {
+          "preview": "Lightweight (LT) down hoody for cool, dry conditions.",
+          "short": "Lightweight, versatile down hoody provides exceptional warmth for its weight. Down Series: Down insulated garments",
+          "long": "Streamlined in its design, and with an exceptional warmth-to-weight ratio, the Cerium LT hoody works as a mid layer or a standalone piece in cool, dry conditions. Premium 850 fill-power down is lofty and resilient, the Arato™ 10 nylon shell provides lightweight durability, and Down Composite Mapping™ strategically places Coreloft™ synthetic insulation in moisture-prone areas. Articulated construction moves with the body, and the insulated StormHood™ provides coverage without compromising range of vision."
+        },
+        "colors": [
+          "Forcefield",
+          "Black",
+          "Cobalt Moon",
+          "Dark Elysium",
+          "Distortion",
+          "Komorebi",
+          "Phantasm"
+        ],
+        "heroImages": [
+          "Cerium-LT-Hoody-(NAM)-Forcefield.jpg",
+          "Cerium-LT-Hoody-(NAM)-Black.jpg",
+          "Cerium-LT-Hoody-(NAM)-Cobalt-Moon.jpg",
+          "Cerium-LT-Hoody-(NAM)-Dark-Elysium.jpg",
+          "Cerium-LT-Hoody-(NAM)-Distortion.jpg",
+          "Cerium-LT-Hoody-(NAM)-Komorebi.jpg",
+          "Cerium-LT-Hoody-(NAM)-Phantasm.jpg"
+        ],
+        "detailImages": [
+          "Cerium-LT-Hoody-Dark-Elysium-Front-View.jpg",
+          "Cerium-LT-Hoody-Distortion-Front-View.jpg",
+          "Cerium-LT-Hoody-Forcefield-Front-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Back-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Front-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Full-View.jpg",
+          "Cerium-LT-Hoody-Komorebi-Hem-Adjuster.jpg",
+          "Cerium-LT-Hoody-Komorebi-Hood.jpg",
+          "Cerium-LT-Hoody-Komorebi-Outfit.jpg",
+          "Cerium-LT-Hoody-Komorebi-Packed.jpg",
+          "Cerium-LT-Hoody-Phantasm-Front-View.jpg"
+        ],
+        "price": 450,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      },
+      {
+        "directory": "atom-lt-hoody",
+        "category": "Jacket",
+        "name": "Atom LT Hoody",
+        "description": {
+          "preview": "Lightweight (LT), versatile synthetically insulated hoody.",
+          "short": "Light, versatile synthetically insulated hoody works as a midlayer and standalone. Atom Series: Synthetic insulated midlayers.",
+          "long": "Alpine proven as a midlayer and standalone, this versatile hoody has warmed climbers and backcountry travelers for years. Built to handle a range of conditions and output levels, the latest-generation Atom LT’s Coreloft™ Compact insulation retains its warmth even if wet and has loft retention to withstand years of packing and unpacking. The water resistant Tyono™ 20 face fabric is breathable and durable, stretch side panels improve fit and freedom, and the insulated StormHood™ adds warmth."
+        },
+        "colors": [
+          "24K Black",
+          "Glitch",
+          "Anecdote",
+          "Ignite",
+          "Black",
+          "Kingfisher",
+          "Dark Elysium",
+          "Komorebi",
+          "Dynasty",
+          "Timelapse",
+          "Frenetic"
+        ],
+        "heroImages": [
+          "Atom-LT-Hoody-24K-Black.jpg",
+          "Atom-LT-Hoody-Glitch.jpg",
+          "Atom-LT-Hoody-Anecdote.jpg",
+          "Atom-LT-Hoody-Ignite.jpg",
+          "Atom-LT-Hoody-Black.jpg",
+          "Atom-LT-Hoody-Kingfisher.jpg",
+          "Atom-LT-Hoody-Dark-Elysium.jpg",
+          "Atom-LT-Hoody-Komorebi.jpg",
+          "Atom-LT-Hoody-Dynasty.jpg",
+          "Atom-LT-Hoody-Timelapse.jpg",
+          "Atom-LT-Hoody-Frenetic.jpg"
+        ],
+        "detailImages": [
+          "Atom-LT-Hoody-24K-Black-Front-View.jpg",
+          "Atom-LT-Hoody-Anecdote-Front-View.jpg",
+          "Atom-LT-Hoody-Black-Side-View.jpg",
+          "Atom-LT-Hoody-Dark-Elysium-Front-View.jpg",
+          "Atom-LT-Hoody-Dark-Elysium-Side-View.jpg",
+          "Atom-LT-Hoody-Frenetic-Front-View.jpg",
+          "Atom-LT-Hoody-Glitch-Front-View.jpg",
+          "Atom-LT-Hoody-Ignite-Front-View.jpg",
+          "Atom-LT-Hoody-Kingfisher-Front-View.jpg",
+          "Atom-LT-Hoody-Komorebi-Back-View.jpg",
+          "Atom-LT-Hoody-Komorebi-Full-View.jpg",
+          "Atom-LT-Hoody-Komorebi-Hand-Pocket.jpg",
+          "Atom-LT-Hoody-Komorebi-Hem-Adjuster.jpg",
+          "Atom-LT-Hoody-Komorebi-Hood.jpg",
+          "Atom-LT-Hoody-Komorebi-Outfit.jpg",
+          "Atom-LT-Hoody-Timelapse-Front-View.jpg"
+        ],
+        "price": 320,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      },
+      {
+        "directory": "squamish-hoody",
+        "category": "Jacket",
+        "name": "Squamish Hoody",
+        "description": {
+          "preview": "Light, compressible, windshell.",
+          "short": "The legendary Arc’teryx windshell built for mild, but shifting, conditions.",
+          "long": "Squamish, BC, home to climbers, hikers and skiers, is a unique place where mountains meet the coast. Over time, its namesake hoody has proven itself essential, packable wind protection with active adventure in mild, but shifting weather. Made with Tyono™ 30 nylon, an advanced, highly wind-resistant fabric that offers surprising strength for its weight, the Squamish Hoody features ultralight minimalist construction, an adjustable Stormhood™, No Slip Zip™, dual hem adjustments and stows in its chest pocket so you can easily stash it in a pack or clip it to a harness."
+        },
+        "colors": ["Ignite", "Black", "Distortion", "Hyperspace"],
+        "heroImages": [
+          "Squamish-Hoody-Ignite.jpg",
+          "Squamish-Hoody-Black.jpg",
+          "Squamish-Hoody-Distortion.jpg",
+          "Squamish-Hoody-Hyperspace.jpg"
+        ],
+        "detailImages": [
+          "Squamish-Hoody-Distortion-Back-View.jpg",
+          "Squamish-Hoody-Distortion-Front-View.jpg",
+          "Squamish-Hoody-Distortion-Full-View.jpg",
+          "Squamish-Hoody-Distortion-Hem-Adjuster.jpg",
+          "Squamish-Hoody-Distortion-Hood.jpg",
+          "Squamish-Hoody-Distortion-Packed.jpg"
+        ],
+        "price": 200,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      }
+    ]
+  },
+  {
+    "category": "Backpacks",
+    "items": [
+      {
+        "directory": "alpha-ar-55",
+        "category": "Backpack",
+        "name": "Alpha AR 55 Backpack",
+        "description": {
+          "preview": "All round (AR), durable, versatile alpine pack.",
+          "short": "Durable and versatile all-round pack for ice climbing and multi-day alpine climbs. Alpha Series: Climbing and alpine focused systems.",
+          "long": "Arc'teryx developed its own fabric to achieve the hardwearing durability necessary for alpine and rock climbing. Prioritizing abrasion and tear resistance, a liquid crystal polymer ripstop grid is incorporated in a high tenacity nylon fabric. Extremely versatile, customizable options and a large 55L capacity suits the needs of multi-day alpine adventures. A removable framesheet and an adjustable, removable top lid give the option to shed weight. Custom webbing daisy chains securely lash gear and ice pick capture accommodates a range of angles."
+        },
+        "colors": ["Dynasty", "Pegasus"],
+        "heroImages": [
+          "Alpha-AR-55-Backpack-Dynasty.jpg",
+          "Alpha-AR-55-Backpack-Pegasus.jpg"
+        ],
+        "detailImages": [
+          "Alpha-AR-55-Backpack-Pegasus-Back-View.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Full-View.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Hip-Belt-V2.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Main-Compartment.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-Detail.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-Detail-V1.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-View.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Side-View-V3.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Suspension.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Top-Closure-Cinch.jpg",
+          "Alpha-AR-55-Backpack-Pegasus-Top-Lid-Pocket.jpg"
+        ],
+        "price": 240,
+        "sizes": ["SRT", "REG"],
+        "activities": ["Ice Climbing", "Alpine Climbing"]
+      },
+      {
+        "directory": "alpha-ar-35",
+        "category": "Backpack",
+        "name": "Alpha AR 35 Backpack",
+        "description": {
+          "preview": "All round (AR), durable, versatile alpine pack.",
+          "short": "Durable and versatile single day pack for multi-pitch rock, alpine and ice climbing. Alpha Series: Climbing and alpine focused systems ",
+          "long": "Arc'teryx developed its own fabric to achieve the hardwearing durability necessary for alpine and rock climbing. Prioritizing abrasion and tear resistance, a liquid crystal polymer ripstop grid is incorporated in a high tenacity nylon fabric. Extremely versatile, customizable options suits the needs of varied alpine adventures. A removable framesheet and an adjustable, removable top lid give the option to shed weight. Custom webbing daisy chains securely lash gear and ice pick capture accommodates a range of angles."
+        },
+        "colors": ["Dynasty", "Pegasus"],
+        "heroImages": [
+          "Alpha-AR-35-Backpack-Dynasty.jpg",
+          "Alpha-AR-35-Backpack-Pegasus.jpg"
+        ],
+        "detailImages": [
+          "Alpha-AR-35-Backpack-Dynasty-Front-View.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Hipbelt.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Main-Compartment-2.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Main-Compartment.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Outfit.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Side-View.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Sternum-Strap.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Closure-Cinch-2.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Closure-Cinch.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Lid-External-Pocket.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Lid-Pocket.jpg",
+          "Alpha-AR-35-Backpack-Dynasty-Top-Strap.jpg"
+        ],
+        "price": 220,
+        "sizes": ["SRT", "REG"],
+        "activities": ["Rock Climbing", "Alpine Climbing"]
+      },
+      {
+        "directory": "brize-32",
+        "category": "Backpack",
+        "name": "Brize 32 Backpack",
+        "description": {
+          "preview": "Daypack for hiking, travel, and everyday use.",
+          "short": "Technical hiking pack that easily transitions to travel and daily use.",
+          "long": "The Brize 32 is designed for extended day hikes and easily transitions to travel and daily use. The main compartment is easily accessed from the top, a zippered pocket on the front provides quick access, side pockets hold water bottles or energy foods, and a top pocket stashes lighter items. An internal pocket organizes headlamp, passport or small essentials. The ergonomic Aeroform™ thermoformed back panel improves airflow and padded shoulder straps provide a comfortable carry."
+        },
+        "colors": ["Tatsu", "Black", "Dark Immersion"],
+        "heroImages": [
+          "Brize-32-Backpack-Tatsu.jpg",
+          "Brize-32-Backpack-Black.jpg",
+          "Brize-32-Backpack-Dark-Immersion.jpg"
+        ],
+        "detailImages": [
+          "Brize-32-Backpack-Dark-Immersion-Back-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Front-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Full-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Ice-Axe-Attachment.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Key-Clip.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Main-Compartment.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Open-View.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Side-Pocket.jpg",
+          "Brize-32-Backpack-Dark-Immersion-Side-View-V1.jpg"
+        ],
+        "price": 200,
+        "sizes": ["REG"],
+        "activities": ["Hiking", "Trekking", "Around Town"]
+      }
+    ]
+  },
+  {
+    "category": "Fleece",
+    "items": [
+      {
+        "directory": "delta-lt-hoody",
+        "category": "Fleece",
+        "name": "Delta LT Hoody",
+        "description": {
+          "preview": "Lightweight (LT), versatile fleece hoody.",
+          "short": "Versatile, lightweight microfleece hoody that works as a midlayer or as a standalone in cool weather. Delta Series: Mid layer fleece",
+          "long": "One of the most versatile fleece jackets Arc’teryx has ever designed, the Delta LT provides effective warmth with little weight. Quick drying, air permeable Polartec® Classic 100 micro velour small grid and articulated construction focused on ergonomic freedom and performance comfort make the Delta LT extremely versatile. The Delta LT layers easily under a hardshell, but as a standalone adds light insulation for higher output in cool conditions. The design is a longer and slightly more relaxed trim fit. A low profile ScubaHood™ adds more warmth and fits under a helmet."
+        },
+        "colors": ["Paradigm", "Binary", "Exosphere", "Black"],
+        "heroImages": [
+          "Delta-LT-Hoody-Paradigm.jpg",
+          "Delta-LT-Hoody-Binary.jpg",
+          "Delta-LT-Hoody-Exosphere.jpg",
+          "Delta-LT-Hoody-Black.jpg"
+        ],
+        "detailImages": [
+          "Delta-LT-Hoody-Paradigm-Full-View.jpg",
+          "Delta-LT-Hoody-Paradigm-Front-View.jpg",
+          "Delta-LT-Hoody-Paradigm-Back-View.jpg",
+          "Delta-LT-Hoody-Paradigm-Hand-Pocket.jpg",
+          "Delta-LT-Hoody-Paradigm-Hood-Up.jpg",
+          "Delta-LT-Hoody-Paradigm-Fabric.jpg"
+        ],
+        "price": 170,
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "activities": ["All Round"]
+      }
+    ]
+  }
+]
