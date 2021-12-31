@@ -39,7 +39,7 @@
     <a href="https://github.com/craigmclean39/shopping-cart-top"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/craigmclean39/shopping-cart-top">View Demo</a>
+    <a href="https://craigmclean39.github.io/shopping-cart-top/">View Demo</a>
     ·
     <a href="https://github.com/craigmclean39/shopping-cart-top/issues">Report Bug</a>
     ·
